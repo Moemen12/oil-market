@@ -1,0 +1,1 @@
+document.getElementById("myLink").addEventListener("click",(function(t){t.preventDefault(),"ar"==localStorage.getItem("language")?window.location.href="products-ar.html":window.location.href="products.html"}));
